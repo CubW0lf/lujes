@@ -14,7 +14,7 @@ const Infos = () => {
     <div className={styles.container}>
       <div className={styles.networks}>
         <div className={styles.social}>
-          <Image src={phone.src} alt="" className={styles.phone} />
+          <Image src={phone.src} alt="" className={styles.phone} layout="responsive" />
           <div className={styles.text}>
             <h2>#LUJESXME</h2>
             <h3>ON SE FOLLOW ?</h3>
@@ -62,32 +62,32 @@ const Infos = () => {
       <div className={styles.services}>
         <div className={styles.wrapper}>
           <div className={styles.item}>
-            <Image src={truck} alt="" width="100" height="65" />
+            <Image src={truck} alt="" width="100" height="65" layout="responsive" />
             <h3>Livraison Offerte</h3>
             <p>En Magasin</p>
           </div>
           <div className={styles.item}>
-            <Image src={clock} alt="" width="100" height="65" />
+            <Image src={clock} alt="" width="100" height="65" layout="responsive" />
             <h3>Click</h3>
             <p>&amp; Reserve</p>
           </div>
           <div className={styles.item}>
-            <Image src={cart} alt="" width="100" height="65" />
+            <Image src={cart} alt="" width="100" height="65" layout="responsive" />
             <h3>Click</h3>
             <p>&amp; Collect</p>
           </div>
           <div className={styles.item}>
-            <Image src={smile} alt="" width="100" height="65" />
+            <Image src={smile} alt="" width="100" height="65" layout="responsive" />
             <h3>Retour</h3>
             <p>&amp; Échanges</p>
           </div>
           <div className={styles.item}>
-            <Image src={secure} alt="" width="100" height="65" />
+            <Image src={secure} alt="" width="100" height="65" layout="responsive" />
             <h3>Paiement</h3>
             <p>Sécurisé</p>
           </div>
           <div className={styles.item}>
-            <Image src={service} alt="" width="100" height="65" />
+            <Image src={service} alt="" width="100" height="65" layout="responsive" />
             <h3>Serice</h3>
             <p>&amp; Client</p>
           </div>
