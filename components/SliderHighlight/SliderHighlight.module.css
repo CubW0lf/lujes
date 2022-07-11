@@ -1,0 +1,27 @@
+.container {
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+}
+
+.viewer {
+  overflow-x: hidden;
+  position: relative;
+  width: 1400px;
+}
+
+.slider {
+  display: grid;
+  grid-template-columns: repeat(3, 1400px);
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.slider > div {
+  display: block;
+  color: white;
+  text-align: center;
+  width: 1400px;
+}

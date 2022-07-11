@@ -1,0 +1,77 @@
+.container {
+  height: 2em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 5vw;
+  border-bottom: 2px solid #eee;
+}
+
+.wrapper {
+  width: 1400px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.right {
+  width: 20%;
+  height: 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.right > div:nth-child(1) {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 80%;
+  padding: 10px;
+}
+
+.right > div:nth-child(2) {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 20%;
+  border-left: 1px solid #eee;
+}
+
+.container a {
+  font-size: 12px;
+  font-family: var(--roboto);
+  letter-spacing: 1px;
+}
+
+.flagContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.flag {
+  position: relative;
+  width: 20px;
+  height: 100%;
+}
+
+.flag img {
+  border-radius: 40%;
+  height: 12px;
+}
+
+.flag span {
+  display: block;
+}
+
+.cartContainer {
+  display: block;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cart {
+  font-size: 20px;
+}

@@ -1,0 +1,98 @@
+.container {
+  width: calc(1400px / 5);
+}
+
+.container button {
+  width: 95%;
+  height: 60px;
+  font-size: 15px;
+}
+
+.filter {
+  overflow-y: hidden;
+}
+
+.filter h2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 50px;
+  border-top: 2px solid #eee;
+  margin: 2vh 0;
+  cursor: pointer;
+}
+
+.filter li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px 0 20px;
+  margin: 1.5vh 0;
+  color: var(--textHover);
+  font-size: 12px;
+}
+
+.filter li svg {
+  font-size: 3vh;
+}
+
+.qty {
+  color: #cecece;
+}
+
+.sizes {
+  display: grid;
+  overflow-y: hidden;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  padding: 0 20px;
+  transform: scaleY(1);
+}
+
+.sizes span {
+  color: var(--textHover);
+  font-size: 15px;
+  margin: 5px 0;
+}
+
+.chevron {
+  transform: rotate(0);
+  transition: all 0.4s;
+}
+
+.rotate {
+  transform: rotate(180deg);
+  transition: all 0.4s;
+}
+
+.liste {
+  transform: scaleY(1);
+  height: auto;
+  transition: all 0.4s;
+}
+
+.minimize {
+  height: 0;
+  transform: scaleY(0);
+  transition: all 0.4s;
+}
+
+.colors {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.4s;
+}
+
+.colors svg {
+  font-size: 30px;
+  margin: 5px;
+  border: 1px solid #eee;
+}
+
+.reset {
+  background-color: transparent;
+  color: var(--text);
+  border-radius: 50px;
+  text-transform: uppercase;
+}

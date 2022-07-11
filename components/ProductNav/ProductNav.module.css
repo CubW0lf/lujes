@@ -1,0 +1,46 @@
+.container {
+  height: 88px;
+  border-bottom: 1px solid #eee;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.wrapper {
+  width: 1400px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  width: 100px;
+}
+
+.products {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 1000px;
+}
+
+.products a {
+  font-size: 18px;
+  font-family: var(--roboto);
+  letter-spacing: 1px;
+  color: var(--text);
+}
+
+.searchContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.searchContainer input {
+  border: none;
+  font-family: var(--roboto);
+  width: 120px;
+  font-size: 15px;
+  color: var(--textHover);
+}

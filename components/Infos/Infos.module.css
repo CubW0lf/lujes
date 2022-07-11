@@ -1,0 +1,206 @@
+.networks {
+  height: 397px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.phone {
+  height: 100%;
+  width: 35%;
+  object-fit: contain;
+  bottom: 0;
+  object-position: bottom;
+}
+
+.text {
+  width: 60%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.text h2 {
+  color: var(--primary);
+  font-size: 35px;
+  margin-bottom: 15px;
+}
+
+.text h3 {
+  font-size: 25px;
+  margin-bottom: 20px;
+}
+
+.social {
+  width: 50%;
+  height: 100%;
+  background: var(--background);
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  position: relative;
+}
+
+.newsletter {
+  width: 50%;
+  height: 100%;
+  padding-left: 100px;
+  background: var(--background2);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.newsletter h2 {
+  margin-bottom: 20px;
+}
+
+.newsletter input {
+  width: 40%;
+  background-color: white;
+  border: 1px solid #cecece;
+  padding: 15px 20px;
+  border-radius: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.newsletter input::placeholder {
+  color: #cecece;
+  font-family: var(--roboto);
+  font-size: 20px;
+}
+
+.ok {
+  position: absolute;
+  bottom: 27.5%;
+  left: 70%;
+  height: 60px;
+  width: 60px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.ok:hover {
+  background-color: black;
+  color: white;
+}
+
+.fidelity {
+  height: 166px;
+  background: var(--primary);
+}
+
+.services {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.fidelity {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.club {
+  width: 50%;
+  height: 100%;
+  padding-right: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.club > div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cardClub {
+  width: 120px;
+  height: 70px;
+  background-color: #fff;
+  border-radius: 10px;
+  position: relative;
+  display: block;
+  transform: rotate(-10deg);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.club h2 {
+  color: white;
+  font-size: 30px;
+  margin-left: 10px;
+}
+
+.cardClub span span:nth-child(1) {
+  color: var(--primary);
+  font-weight: 800;
+}
+
+.programm {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.programm h2 {
+  color: white;
+}
+
+.programm p {
+  color: white;
+}
+
+.programm button {
+  margin-left: 20px;
+  background-color: transparent;
+  padding: 15px 20px;
+  border-radius: 50px;
+  border-color: white;
+}
+
+.wrapper {
+  width: 1400px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.item h3 {
+  font-family: var(--roboto);
+  text-transform: uppercase;
+  font-size: 15px;
+}
+
+.item p {
+  font-size: 15px;
+  text-transform: uppercase;
+}
