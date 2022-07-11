@@ -1,6 +1,11 @@
 import styles from "./Infos.module.css";
-import phone from "../../public/assets/images/phone.gif";
-import { truck, cart, service, smile, clock, secure } from "../../public/assets/images/services";
+import truck from "../../public/assets/images/services/truck.webp";
+import cart from "../../public/assets/images/services/cart.webp";
+import service from "../../public/assets/images/services/service.webp";
+import smile from "../../public/assets/images/services/smile.webp";
+import clock from "../../public/assets/images/services/1h.webp";
+import secure from "../../public/assets/images/services/secure.webp";
+import phone from "../../public/assets/images/services/phone.gif";
 import Image from "next/image";
 
 const Infos = () => {
