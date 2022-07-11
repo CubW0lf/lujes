@@ -187,14 +187,17 @@
   align-items: center;
 }
 
+.imgContainer {
+  width: 100px;
+  height: 65px;
+  position: relative;
+}
+
 .item {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 100px;
-  height: 65px;
-  position: relative;
 }
 
 .item h3 {

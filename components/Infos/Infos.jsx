@@ -1,11 +1,11 @@
 import styles from "./Infos.module.css";
-import truck from "../../public/assets/images/services/truck.webp";
-import cart from "../../public/assets/images/services/cart.webp";
-import service from "../../public/assets/images/services/service.webp";
-import smile from "../../public/assets/images/services/smile.webp";
-import clock from "../../public/assets/images/services/1h.webp";
-import secure from "../../public/assets/images/services/secure.webp";
-import phone from "../../public/assets/images/services/phone.gif";
+import truck from "../../public/assets/images/truck.webp";
+import cart from "../../public/assets/images/cart.webp";
+import service from "../../public/assets/images/service.webp";
+import smile from "../../public/assets/images/smile.webp";
+import clock from "../../public/assets/images/1h.webp";
+import secure from "../../public/assets/images/secure.webp";
+import phone from "../../public/assets/images/phone.gif";
 import Image from "next/image";
 
 const Infos = () => {
@@ -62,32 +62,44 @@ const Infos = () => {
       <div className={styles.services}>
         <div className={styles.wrapper}>
           <div className={styles.item}>
-            <Image src={truck} alt="" />
+            <div className={styles.imgContainer}>
+              <Image src={truck} alt="" layout="fill" objectFit="contain" />
+            </div>
             <h3>Livraison Offerte</h3>
             <p>En Magasin</p>
           </div>
           <div className={styles.item}>
-            <Image src={clock} alt="" />
+            <div className={styles.imgContainer}>
+              <Image src={clock} alt="" layout="fill" objectFit="contain" />
+            </div>
             <h3>Click</h3>
             <p>&amp; Reserve</p>
           </div>
           <div className={styles.item}>
-            <Image src={cart} alt="" />
+            <div className={styles.imgContainer}>
+              <Image src={cart} alt="" layout="fill" objectFit="contain" />
+            </div>
             <h3>Click</h3>
             <p>&amp; Collect</p>
           </div>
           <div className={styles.item}>
-            <Image src={smile} alt="" />
+            <div className={styles.imgContainer}>
+              <Image src={smile} alt="" layout="fill" objectFit="contain" />
+            </div>
             <h3>Retour</h3>
             <p>&amp; Échanges</p>
           </div>
           <div className={styles.item}>
-            <Image src={secure} alt="" />
+            <div className={styles.imgContainer}>
+              <Image src={secure} alt="" layout="fill" objectFit="contain" />
+            </div>
             <h3>Paiement</h3>
             <p>Sécurisé</p>
           </div>
           <div className={styles.item}>
-            <Image src={service} alt="" />
+            <div className={styles.imgContainer}>
+              <Image src={service} alt="" layout="fill" objectFit="contain" />
+            </div>
             <h3>Serice</h3>
             <p>&amp; Client</p>
           </div>
