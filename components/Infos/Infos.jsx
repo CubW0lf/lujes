@@ -9,7 +9,7 @@ const Infos = () => {
     <div className={styles.container}>
       <div className={styles.networks}>
         <div className={styles.social}>
-          <img src={phone.src} alt="" className={styles.phone} />
+          <Image src={phone.src} alt="" className={styles.phone} />
           <div className={styles.text}>
             <h2>#LUJESXME</h2>
             <h3>ON SE FOLLOW ?</h3>
@@ -48,7 +48,7 @@ const Infos = () => {
             <p>
               Plus de points cumulés pour plus
               <br />
-              d'avantages
+              d&apos;avantages
             </p>
           </div>
           <button>Je découvre</button>
