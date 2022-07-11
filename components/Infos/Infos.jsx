@@ -62,32 +62,32 @@ const Infos = () => {
       <div className={styles.services}>
         <div className={styles.wrapper}>
           <div className={styles.item}>
-            <Image src={truck} alt="" width="100" height="65" layout="responsive" />
+            <Image src={truck} alt="" />
             <h3>Livraison Offerte</h3>
             <p>En Magasin</p>
           </div>
           <div className={styles.item}>
-            <Image src={clock} alt="" width="100" height="65" layout="responsive" />
+            <Image src={clock} alt="" />
             <h3>Click</h3>
             <p>&amp; Reserve</p>
           </div>
           <div className={styles.item}>
-            <Image src={cart} alt="" width="100" height="65" layout="responsive" />
+            <Image src={cart} alt="" />
             <h3>Click</h3>
             <p>&amp; Collect</p>
           </div>
           <div className={styles.item}>
-            <Image src={smile} alt="" width="100" height="65" layout="responsive" />
+            <Image src={smile} alt="" />
             <h3>Retour</h3>
             <p>&amp; Échanges</p>
           </div>
           <div className={styles.item}>
-            <Image src={secure} alt="" width="100" height="65" layout="responsive" />
+            <Image src={secure} alt="" />
             <h3>Paiement</h3>
             <p>Sécurisé</p>
           </div>
           <div className={styles.item}>
-            <Image src={service} alt="" width="100" height="65" layout="responsive" />
+            <Image src={service} alt="" />
             <h3>Serice</h3>
             <p>&amp; Client</p>
           </div>
